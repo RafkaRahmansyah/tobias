@@ -1,0 +1,40 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .auth-container {
+        margin: 20px;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    
+    .btn-sm {
+        padding: 5px 10px;
+        font-size: 0.875rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .navbar-text {
+        display: none;
+    }
+    
+    .stats-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
